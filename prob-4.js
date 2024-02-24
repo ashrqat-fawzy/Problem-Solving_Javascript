@@ -6,10 +6,8 @@ const readline = require('readline').createInterface({
 });
 
 readline.question("", input => {
-  // const [a, b] =  input.split(" ");
-  
+
   let A= parseInt(input);
-  // let B= parseInt(b);
   
 console.log(`ABC${A}`);
   
